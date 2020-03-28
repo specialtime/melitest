@@ -21,7 +21,7 @@ function invocarAPI(element) {
             .then (data => data.json())
             .then(data =>{
                 categoryName = data.name;
-                fs.appendFile('log.txt',results.id+","+results.title+","+results.category_id+","+categoryName+"\n" , function (err) {
+                fs.appendFile('log.txt',results.id+","+results.title+","+results.category_id+","+categoryName+"\n" ,'utf8' ,function (err) {
                     if (err) throw err;
                 }); 
             })
