@@ -1,6 +1,6 @@
 Pre-requisitos
-NodeJS -> Descargar desde https://nodejs.org/en/download/
-Repositorio -> Descargar desde https://github.com/specialtime/melitest
+1. NodeJS -> Descargar desde https://nodejs.org/en/download/
+2. Repositorio -> Descargar desde https://github.com/specialtime/melitest
 
 Utilización del Script
 1. Abrir una consola y posicionarse dentro de la carpeta melitest-master
